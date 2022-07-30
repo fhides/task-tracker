@@ -36,3 +36,5 @@ const Tasks = ({onDelete,onToggle }) => {
     </>
   )
 }
+
+export default Tasks
