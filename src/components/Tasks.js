@@ -27,3 +27,12 @@ const Tasks = ({onDelete,onToggle }) => {
     );
     setTasks(updatedData);
   }
+
+  return (
+    <>
+    {tasks.map((task) =>(
+      <Task key={task.id} task={task}  onToggle={toggleReminder}  onDelete={handleData}/>
+      ))}
+    </>
+  )
+}
