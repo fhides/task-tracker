@@ -52,3 +52,11 @@ body {
     display: block;
     width: 100%;
   }
+
+  .task{
+    background-color: #fff;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
