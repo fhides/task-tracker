@@ -40,4 +40,27 @@ const onSubmit = (e) => {
     setDay('')
     setReminder(false)
    
-  }
+  }return (
+    <form className="add-form" onSubmit={onSubmit}>
+        <div className="form-control">
+            <label>Task</label>
+            <input type='text' placeholder="Add Task" 
+            value={text} onChange={handleText}/>
+        </div>
+        <div className="form-control">
+            <label>Day & Time</label>
+            <input type='text' placeholder="Add Day & Time"
+            value={day} onChange={handleDay}/>
+        </div>
+        <div className="form-control form-control-check">
+            <label>Set Reminder</label>
+            <input type='checkbox' checked= {reminder}
+            value={reminder} onChange={handleReminder}/>
+        </div>
+
+        <input type='submit' value='Save Task' className="btn btn-block"/>
+    </form>
+  )
+}
+
+export default AddTask
