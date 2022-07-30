@@ -12,7 +12,6 @@ function App() {
 
   return (
     <div className="container">
-      <h1>task tracker</h1>
       <Header
         switchButton={switchButton}
         showAdd={showAddTask}
