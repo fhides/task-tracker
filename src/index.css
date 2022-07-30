@@ -40,3 +40,10 @@ body {
     font-family: inherit;
   }
   
+  .btn:focus{
+    outline: none;
+  }
+
+  .btn:active{
+    transform: scale(0.98);
+  }
