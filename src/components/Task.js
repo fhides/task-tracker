@@ -14,3 +14,5 @@ const Task = ({task, onDelete, onToggle}) => {
       .then((r) => r.json())
       .then(() => onDelete(task));
   }
+
+  return (
