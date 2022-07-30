@@ -15,3 +15,29 @@ function handleDay(event) {
 function handleReminder(event) {
   setReminder(event.currentTarget.checked)
 }
+const onSubmit = (e) => {
+    e.preventDefault()
+    const postData = {
+      day: day,
+      text: text,
+      reminder: reminder,
+    };
+  
+    fetch("http://localhost:3000/data",{
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(postData),
+    });
+  
+    if (!text){
+      alert('please add task')
+      return
+    }
+  
+    setText('')
+    setDay('')
+    setReminder(false)
+   
+  }
