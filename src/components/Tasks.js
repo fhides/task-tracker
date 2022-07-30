@@ -20,3 +20,10 @@ const Tasks = ({onDelete,onToggle }) => {
       )
     );
   };
+
+  function handleData(deletedData) {
+    const updatedData = tasks.filter(
+      (task) => task.id !== deletedData.id
+    );
+    setTasks(updatedData);
+  }
