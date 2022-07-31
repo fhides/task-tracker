@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Name of the Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### Author : Name Date
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Project Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## SCREENSHOTS
 
-### `npm run build`
+- link 1
+- link 2
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## SetUp Instruction
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Requirements
 
-### `npm run eject`
+- [Lang](lang Url)
+- [Framework](Framework URL)
+- Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
+- [Testing Platform](Platform URL)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Getting Files
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Fork the repo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Create a new branch in your terminal (git checkout -b improve-feature)
+* Install the prerequisites
+* Make appropriate changes in file(s)
+* Run the server to see the changes
+* Add the changes and commit them (git commit -am "Improve App")
+* Push to the branch (git push origin improve-app)
+* Create a Pull request
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Open the folder location on terminal and use the following command to run app:
 
-## Learn More
+## How To Run It
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> $ pip install -r requirements.txt
+> To install all requirements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> $ python3 manage.py runserver
+> Then run server with the above command
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Live Link
 
-### Analyzing the Bundle Size
+Or you can access the web application directly via this [LINK.](link.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Package Name
+- Package Name
+- Package Name
+- Package Name
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Technologies Used
 
-### Deployment
+1. HTML
+2. MdBootstrap
+3. HTML
+4. CSS
+5. JavaScript
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Contact Information
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email : example@gmail.com
+
+---
+
+## [License](LICENSE)
+
+MIT License
+Copyright (c) YEAR Author

@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "text": "Working on labs ",
+      "day": "Jul 4th at 5:00am",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Going for a picnic",
+      "day": "Jul 4th at 2:00pm",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Working on my projects",
+      "day": "Jul 5th at 5:00am",
+      "reminder": true
+    },
+    {
+      "id": 4,
+      "text": "Going for a nature walk ",
+      "day": "Jul 4th at 5:00am",
+      "reminder": false
+    },
+    {
+      "day": "Jul 30th at 7:00am",
+      "text": "Finish my Projects",
+      "reminder": true,
+      "id": 5
+    },
+    {
+      "day": "everyday at 12:00 midnight",
+      "text": "sleeping",
+      "reminder": true,
+      "id": 6
+    }
+  ]
+}
