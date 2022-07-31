@@ -5,7 +5,7 @@ const Tasks = ({onDelete,onToggle }) => {
     const [tasks, setTasks] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/data")
+        fetch("https://field-languid-crater.glitch.me/data")
           .then((r) => r.json())
           .then((data) => {
             setTasks(data);

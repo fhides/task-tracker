@@ -5,7 +5,7 @@ const Task = ({task, onDelete, onToggle}) => {
   const{text, day, reminder} = task;
 
   function deleteData() {
-    fetch(`http://localhost:3000/data/${task.id}`, {
+    fetch(`https://field-languid-crater.glitch.me/data/${task.id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

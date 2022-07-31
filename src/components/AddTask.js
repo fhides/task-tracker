@@ -23,7 +23,7 @@ const onSubmit = (e) => {
       reminder: reminder,
     };
   
-    fetch("http://localhost:3000/data",{
+    fetch("https://field-languid-crater.glitch.me/data",{
       method: "POST",
       headers: {
         "Content-Type": "application/json",
